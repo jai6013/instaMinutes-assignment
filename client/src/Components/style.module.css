@@ -1,0 +1,112 @@
+*{
+    background-color: whitesmoke;
+}
+
+.main,.joinIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+    height: 715px;
+}
+.joinIn{
+    gap: 15px;
+    background-color: rgb(131, 3, 250);
+}
+.joinIn > div{
+    font-size: 25px;
+    background: transparent;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.joinIn > input{
+    padding:10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.joinIn > button{
+    border: none;
+    background-color: rgb(41, 45, 46);
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 12px;
+    padding: 5px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+    top: 150px;
+    left: auto;
+    right: auto;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 32.5%;
+    text-align: center;
+    background-color: rgb(131, 3, 250);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.msgBtn{
+    width: 32%;
+    padding: 5px;
+    background-color: white;
+    bottom: 150px;
+    position: fixed;
+    left: auto;
+    right: auto;
+    border-radius: 10px;
+}
+.main input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(231, 223, 223);
+    font-style: oblique;
+    width: 80%;
+}
+.main button{
+    padding: 5px;
+    color: white;
+    margin-left: 5px;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: rgb(131, 3, 250);
+    width: 14%;
+    outline: none;
+}
+.userName{
+    font-size: 13px;
+    background-color: rgb(228, 224, 224);
+    width: fit-content;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+}
+.chatBody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+    font-size: 18px;
+    height: 350px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background-color: white;
+}
+.bodyPart{
+    margin-left: 10px;
+    background-color: white;
+}
+.message{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
